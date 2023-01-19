@@ -1,5 +1,16 @@
 # Kube-VIP with DHCP LoadBalancers
 
+```yaml
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: dgiebert-fleet-kubevip
+  namespace: fleet-default
+spec:
+  branch: main
+  repo: https://github.com/dgiebert/fleet-kubevip.git
+```
+
 ## Requirements
 - **Disable the servicelb for k3s**
 - Uses the default network interface (autodetected)
