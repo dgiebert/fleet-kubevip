@@ -1,0 +1,7 @@
+defaultNamespace: "kube-system"
+
+helm:
+  releaseName: "kube-vip"
+  chart: "kube-vip"
+  repo: "https://kube-vip.github.io/helm-charts"
+  version: "0.4.2"
