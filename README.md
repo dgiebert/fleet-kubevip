@@ -11,6 +11,7 @@
 > We do this by explicitly exposing a Service on the address 0.0.0.0. When kube-vip sees a Service on this address, it will create 
 > a macvlan interface on the host and request a DHCP address. Once this address is provided, it will assign it as the LoadBalancer 
 > IP and update the Kubernetes Service.
+>
 > -- <cite>[Kubevip Docs][1]</cite>
 
 [1]: https://kube-vip.io/docs/usage/kubernetes-services/?query=dhcp#using-dhcp-for-load-balancers-experimental-kube-vip-v021
