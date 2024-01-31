@@ -5,3 +5,7 @@ helm:
   chart: "kube-vip"
   repo: "https://kube-vip.github.io/helm-charts"
   version: "0.4.4"
+  values: 
+    env:
+      svc_election: "true"
+
