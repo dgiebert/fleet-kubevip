@@ -2,9 +2,10 @@ defaultNamespace: "kube-system"
 
 helm:
   releaseName: "kube-vip"
-  chart: "kube-vip"
-  repo: "https://kube-vip.github.io/helm-charts"
-  version: "0.4.4"
+  chart: https://github.com/dgiebert/kubevip-charts/releases/download/kube-vip-0.5.0/kube-vip-0.5.0.tgz
+  # chart: "kube-vip"
+  # repo: "https://kube-vip.github.io/helm-charts"
+  # version: "0.4.4"
   values: 
     env:
       svc_election: "true"
