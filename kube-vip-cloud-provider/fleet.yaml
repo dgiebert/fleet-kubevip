@@ -4,4 +4,4 @@ helm:
   releaseName: "kube-vip-cloud-provider"
   chart: "kube-vip-cloud-provider"
   repo: "https://kube-vip.github.io/helm-charts"
-  version: "0.2.5"
+  version: "0.2.10"
