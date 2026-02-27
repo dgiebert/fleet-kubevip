@@ -8,4 +8,5 @@ helm:
   values: 
     env:
       svc_election: "true"
+      vip_leaderelection: "true"
 
